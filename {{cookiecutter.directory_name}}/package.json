@@ -1,0 +1,10 @@
+{
+  "name": "{{cookiecutter.app_name}}",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "autoprefixer-cli": "^1.0.0",
+    "bower": "^1.7.9",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.0"
+  }
+}

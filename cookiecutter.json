@@ -1,0 +1,9 @@
+{
+  "full_name": "Myles Braithwaite",
+  "email": "me@mylesbraithwaite.com",
+  "github_username": "myles",
+  "project_name": "Website Prototype Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "project_short_description": "Website Prototype Boilerplate is used by Myles Braithwaite as a quick website prototyping.",
+  "version": "0.1.0"
+}

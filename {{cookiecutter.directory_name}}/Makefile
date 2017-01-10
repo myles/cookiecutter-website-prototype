@@ -84,6 +84,9 @@ all: clean $(DIST)/$(APP).css $(DIST)/$(APP).js $(DIST)/$(APP).html
 clean:
 	rm -fr $(DIST)/$(APP).css $(DIST)/$(APP).js $(DIST)/$(APP).html
 
+signature:
+	gpg-zip --output $(DIST).asc --sign $(DIST)
+
 # Watch the filesystem and recompile on file modification
 watch:
 	$(BIN)/nodemon -e "scss,js" -w $(SASS) -w $(JS) -x "make all"
